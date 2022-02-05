@@ -13,6 +13,15 @@ class Post {
         return (this.color.red + ' ' + this.color.green + ' ' + this.color.blue);
     }
 
+    get col(){
+        return (color);
+    }
+
+    get eng()
+    {
+        return (engagement);
+    }
+
     get engagementString(){
         return (this.engagement.likes + ' ' + this.engagement.comments);
     }
