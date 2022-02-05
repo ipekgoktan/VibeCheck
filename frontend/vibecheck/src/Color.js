@@ -4,14 +4,6 @@ class Color {
       this.g = g;
       this.b = b;
     }
-    // Getter
-    get color() {
-      return this.calcColor();
-    }
-    // Method
-    calcColor() {
-      return this.r + this.g + this.b;
-    }
 
     // Getter
     get red() {
@@ -26,6 +18,7 @@ class Color {
         return this.b;
     }
 }
+module.exports = Color
   
 //   const c = new Color(10, 20, 30);
   
