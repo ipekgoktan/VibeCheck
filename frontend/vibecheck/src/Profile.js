@@ -20,11 +20,25 @@ class Profile {
     get post(){
         return (this.p);
     }
+
+    // get postList(){
+    //     var posColors = "hi: ";
+    //     for (let i=0; i<posts.length; i++) {
+    //         console.log("test");
+    //         posColors += posts[i] + ' ';
+    //     }
+    //     return (posColors);
+    // }
 }
 
 let color = new Color(10, 20, 30);
+let color2 = new Color(1, 2, 3);
 let eng = new Engagement(100, 200);
 let p = new Post(color, eng, "joy", "person");
+let p2 = new Post(color, eng, "sad", "cat");
+var ps = [];
+ps.push[p];
+ps.push[p2];
 const prof = new Profile(p, 50, 60);
-//console.log(p.colorString);
-//console.log(prof.post.colorString);
+//console.log(prof.postList);
+console.log(prof.post.colorString);
