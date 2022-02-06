@@ -49,8 +49,4 @@ const FindEmotion = async function(inputFile) {
 module.exports = { FindEmotion };
 
 
-/*
-let emotion
-FindEmotion('https://www.theladders.com/wp-content/uploads/happy-190806.jpg').then(result =>  return result)
-console.log(emotion)*/
-
+await console.log(FindEmotion('https://i.pinimg.com/originals/b1/44/68/b1446847e3e6d257eafc72f8fe3a5575.jpg'))

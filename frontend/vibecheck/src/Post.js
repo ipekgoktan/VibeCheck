@@ -2,15 +2,15 @@ const Emotions = require("./GetEmotion");
 
 class Post {
 
-    /*
+    
     GetEmotion(link){
 
-        return Emotions.FindEmotion('https://www.theladders.com/wp-content/uploads/happy-190806.jpg').then(
+        Emotions.FindEmotion('https://www.theladders.com/wp-content/uploads/happy-190806.jpg').then(
         result =>  {
             console.log(result)
             return result;
         })
-    }*/
+    }
 
     constructor(link, likes, comments, color){
         this.Link = link;
