@@ -1,23 +1,23 @@
 import logo from '../logo.svg';
 import {Link } from "react-router-dom";
 import './App.css';
+import media from './mediaService.js';
+
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="/Landing"
-          target="_blank"
-          rel="noopener noreferrer"
+
+        {/* <img src={logo} className="App-logo" alt="logo" /> */}
+        <p>This is a vibe check.</p>
+        {/* <button
+          onclick={media.setupInsta}
         >
-          Learn React
-        </a>
+          AUTHORIZE INSTAGRAM
+        </button> */}
+        <button type="button" id = "BUTTON"  onClick={media.setupInsta} >AUTHORIZE INSTAGRAM</button>
       </header>
         
     </div>
