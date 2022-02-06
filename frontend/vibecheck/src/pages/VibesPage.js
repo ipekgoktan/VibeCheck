@@ -11,9 +11,6 @@ function VibesPage() {
     return (
       <div className="VibesPage">
         <header className="VibesPage-header">
-          <p>
-            test!!
-          </p>
           <img src={YourVibeCheck} className="VibesPage-items" />
           <img src={VibePicture} className="VibesPage-items" />
           <img src={MostCaptions} className="VibesPage-items" />
