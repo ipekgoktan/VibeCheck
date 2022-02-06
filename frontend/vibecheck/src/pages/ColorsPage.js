@@ -42,10 +42,16 @@ function ColorsPage() {
             <div id="leftbar">
               <img src={ChangeYourVibes} className="EmotionsPage-leftBarItems" />
               <br></br>
-              <img src={OverviewResults} className="EmotionsPage-leftBarItems" />
-              <div class='text-on-image'>
-                <h3> Welcome to my Blog </h3>
-                <p> FREEEEDOM </p>
+              <div class="container">
+                <img src={OverviewResults} className="EmotionsPage-leftBarItems" />
+                <div class="centered">
+                  <p> To prioritize likes, post </p>
+                  <p>dark pink more. </p>
+                  <p> To prioritize comments, post </p>
+                  <p> orange more. </p>
+                  <p> To prioritize overall engagement, </p>
+                  <p>post pink more. </p>
+                </div>
               </div>
             </div>
 

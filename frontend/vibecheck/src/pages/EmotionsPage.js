@@ -42,11 +42,21 @@ function EmotionsPage() {
         
         <header className="EmotionsPage-header" >
         <div id="list">
-          <div id="leftbar">
-            <img src={ChangeYourVibes} className="EmotionsPage-leftBarItems" />
-            <br></br>
-            <img src={OverviewResults} className="EmotionsPage-leftBarItems" />
-          </div>
+            <div id="leftbar">
+              <img src={ChangeYourVibes} className="EmotionsPage-leftBarItems" />
+              <br></br>
+              <div class="container">
+                <img src={OverviewResults} className="EmotionsPage-leftBarItems" />
+                <div class="centered">
+                  <p> To prioritize likes, post your </p>
+                  <p>happiness more. </p>
+                  <p> To prioritize comments, post your </p>
+                  <p> sadness more. </p>
+                  <p> To prioritize overall engagement, </p>
+                  <p>post your hapiness more. </p>
+                </div>
+              </div>
+            </div>
 
           <div id="rightbar">
             <img id = "smaller_bar" src={anger} className="EmotionsPage-rightBarItems" />

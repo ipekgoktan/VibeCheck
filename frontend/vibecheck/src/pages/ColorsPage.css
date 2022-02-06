@@ -101,13 +101,14 @@
 
 .ColorsPage-rightBarItems{
     white-space: nowrap;
-    padding-top: 30px;
+    padding-top: 16px;
     padding-right: 16px;
 }
 
 #list{
     overflow-x:scroll;
     white-space:nowrap;
+    margin-top: 0px;
 }
 
 #menuList{
@@ -142,10 +143,43 @@
 
 .head-text {
     position: relative;
+    color: #000000;
  }
- .text-on-image {
-   position: absolute;
-   right: 50%;
-   left: 0;
-   bottom: 15%;
+.text-on-image {
+    position: absolute;
+    width: 50px;
+    height: 58px;
+    left: 94px;
+    top: 500px;
+
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 15px;
+
+    overflow-wrap: normal;
+
+    color: #000000;
  }
+
+ .container {
+    position: relative;
+    text-align: center;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 15px;
+
+    overflow-wrap: normal;
+
+    color: #000000;
+  }
