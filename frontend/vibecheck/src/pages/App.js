@@ -1,8 +1,7 @@
 import logo from '../logo.svg';
 import {Link } from "react-router-dom";
 import './App.css';
-import media from './mediaService.js';
-
+import media from '../mediaService.js';
 
 
 function App() {
@@ -24,6 +23,6 @@ function App() {
   );
 }
 
-//window.location.replace('/Landing');
+// window.location.replace('/Landing');
 export default App;
 
