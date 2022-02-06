@@ -9,10 +9,10 @@ const FindEmotion = async function(inputFile) {
     // Make a call to the Vision API to detect the faces
     const [result] = await client.faceDetection(inputFile);
     const faces = result.faceAnnotations;
-    joyMeeter = 0;
-    angerMeeter = 0;
-    sorowMeeter = 0;
-    SuprizeMeeter = 0;
+    let joyMeeter = 0;
+    let angerMeeter = 0;
+    let sorowMeeter = 0;
+    let SuprizeMeeter = 0;
     faces.forEach((face) => {
         if (face.joyLikelihood == 'VERY_LIKELY'){
         joyMeeter++;
@@ -42,11 +42,18 @@ const FindEmotion = async function(inputFile) {
     if (SuprizeMeeter == maxValue){
         Emotion = "Suprized";
     }
-
+    //console.log(Emotion)
     return Emotion;
 }
 
+
+
 module.exports = { FindEmotion };
 
+let emotion
+FindEmotion('https://i.pinimg.com/originals/b1/44/68/b1446847e3e6d257eafc72f8fe3a5575.jpg').then(result=>{
+    console.log(result)
+    emotion=result
+})
 
-await console.log(FindEmotion('https://i.pinimg.com/originals/b1/44/68/b1446847e3e6d257eafc72f8fe3a5575.jpg'))
+console.log(emotion)

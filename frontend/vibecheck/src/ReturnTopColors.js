@@ -32,7 +32,7 @@ colorDict["Pink"] = [0, 0, 0];
 colorDict["Tan"] = [0, 0, 0];
 
 
-Fotozzz = EmmaChamberline.getImages()
+Fotozzz = profile.getImages()
 
 Fotozzz.forEach(pic => {
     colorDict[pic.getColor()][0]++

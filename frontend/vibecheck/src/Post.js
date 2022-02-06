@@ -12,11 +12,12 @@ class Post {
         })
     }
 
-    constructor(link, likes, comments, color){
+    constructor(link, likes, comments, color, emotion){
         this.Link = link;
         this.Likes = likes;
         this.Comments = comments;
         this.Color = color
+        this.Emotion = emotion
     }
 
     getLink(){
@@ -33,6 +34,10 @@ class Post {
 
     getColor(){
         return this.Color;
+    }
+
+    getEmotion(){
+        return this.Emotion;
     }
     
 }
