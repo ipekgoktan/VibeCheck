@@ -1,0 +1,70 @@
+.ColorsPage {
+    text-align: center;
+    background-color: #FCF7F3;
+}
+
+.ColorsPage-header {
+    background-color: #FCF7F3;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+.ColorsPage-IntroText {
+    /* You got the most likes on */
+    position: absolute;
+    width: 450px;
+    height: 36px;
+    left: 840px;
+    top: 219px;
+
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.ColorsPage-CategoryText {
+    /* selfies */
+    position: absolute;
+    width: 266px;
+    height: 107px;
+    left: 925px;
+    top: 247px;
+
+    font-family: DM Serif Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 78px;
+    line-height: 107px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #000000;
+}
+
+.ColorsPage-InfoText {
+    /* Out of your top liked posts, 45% of them were selfies...*/ 
+    position: absolute;
+    width: 504px;
+    height: 145px;
+    left: 813px;
+    top: 373px;
+
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #000000;
+}
