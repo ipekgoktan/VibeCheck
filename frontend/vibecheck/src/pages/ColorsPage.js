@@ -28,29 +28,15 @@ function ColorsPage() {
             <Link to={'/VibesPage'}>
               <img src={vibe} className="EmotionsPage-items" />
             </Link>
-            <Link to={'/LikesPage'}>
-              <img src={likes} className="EmotionsPage-items" />
-            </Link>
-            <Link to={'/CommentsPage'}>
-              <img src={comments} className="EmotionsPage-items" />
-            </Link>
-            <Link to={'/ColorsPage'}>
-              <img src={engagement} className="EmotionsPage-items" />
-            </Link>
-        </div>
-
-        <header className="EmotionsPage-header" >
-          <div id="menuList" >
             <Link to={'/ColorsPage'}>
               <img src={colors} className="EmotionsPage-ListItems" />
-            </Link>
-            <Link to={'/ObjectsPage'}>
-              <img src={objects} className="EmotionsPage-ListItems" />
             </Link>
             <Link to={'/EmotionsPage'}>
               <img src={emotions} className="EmotionsPage-ListItems" />
             </Link>
-          </div>
+        </div>
+
+        <header className="EmotionsPage-header" >
 
           <div id="list">
             <div id="leftbar">
