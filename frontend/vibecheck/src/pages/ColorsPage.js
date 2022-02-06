@@ -3,7 +3,7 @@ import './EmotionsPage.css';
 import ChangeYourVibes from './../images/ColorsPics/ChangeYourVibes.svg'
 import Ellipse from './../images/ColorsPics/colorslist/Ellipse.svg'
 import Rectangle from './../images/ColorsPics/colorslist/Rectangle.svg'
-import colors from './../images/ColorsPics/menu/colors.svg'
+import colors from './../images/ColorsPics/colors.svg'
 import emotions from './../images/ColorsPics/menu/emotions.svg'
 import objects from './../images/ColorsPics/menu/objects.svg'
 import comments from './../images/ColorsPics/navbar/comments.svg'
@@ -43,6 +43,10 @@ function ColorsPage() {
               <img src={ChangeYourVibes} className="EmotionsPage-leftBarItems" />
               <br></br>
               <img src={OverviewResults} className="EmotionsPage-leftBarItems" />
+              <div class='text-on-image'>
+                <h3> Welcome to my Blog </h3>
+                <p> FREEEEDOM </p>
+              </div>
             </div>
 
             <div id="rightbar">

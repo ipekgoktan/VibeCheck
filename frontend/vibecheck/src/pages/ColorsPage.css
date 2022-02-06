@@ -139,3 +139,13 @@
     height: auto; 
     width: auto; 
 }
+
+.head-text {
+    position: relative;
+ }
+ .text-on-image {
+   position: absolute;
+   right: 50%;
+   left: 0;
+   bottom: 15%;
+ }
