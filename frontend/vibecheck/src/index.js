@@ -9,25 +9,23 @@ import Landing from './pages/Landing';
 import ColorsPage from './pages/ColorsPage';
 import CommentsPage from './pages/CommentsPage';
 import EmotionsPage from './pages/EmotionsPage';
-import EngagementPage from './pages/EngagementPage';
-import ItemsPage from './pages/ItemsPage';
 import LikesPage from './pages/LikesPage';
+import ObjectsPage from './pages/ObjectsPage';
 import VibesPage from './pages/VibesPage';
 
 ReactDOM.render(
   
   <BrowserRouter>
     <Routes>
-      <Route exact path="/" element={<App/>}/>
+      <Route exact path="/" element={<Landing/>}/>
       <Route exact path="/App" element={<App/>}/>
       <Route exact path="/Landing" element={<Landing/>}/>
       <Route exact path="/ColorsPage" element={<ColorsPage/>}/>
       <Route exact path="/CommentsPage" element={<CommentsPage/>}/>
       <Route exact path="/EmotionsPage" element={<EmotionsPage/>}/>
-      <Route exact path="/EngagementPage" element={<EngagementPage/>}/>
-      <Route exact path="/ItemsPage" element={<ItemsPage/>}/>
       <Route exact path="/LikesPage" element={<LikesPage/>}/>
       <Route exact path="/VibesPage" element={<VibesPage/>}/>
+      <Route exact path="/ObjectsPage" element={<ObjectsPage/>}/>
     </Routes> 
   </BrowserRouter>,
   document.getElementById('root')
