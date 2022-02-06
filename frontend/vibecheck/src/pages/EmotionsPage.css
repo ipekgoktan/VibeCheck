@@ -68,3 +68,72 @@
 
     color: #000000;
 }
+
+.EmotionsPage-items{
+    white-space: nowrap;
+    margin-left: 25px;
+    padding-top: 16px;
+    padding-right: 16px;
+    padding-left: 16px;
+}
+
+.EmotionsPage-logo{
+    white-space: nowrap;
+    margin-right: 500px;
+    padding-top: 16px;
+    padding-right: 16px;
+    padding-left: 16px;
+}
+
+.EmotionsPage-ListItems{
+    white-space: nowrap;
+    margin-left: 50px;
+    padding-top: 16px;
+    padding-right: 16px;
+    padding-left: 16px;
+}
+
+.EmotionsPage-leftBarItems{
+    white-space: nowrap;
+    padding-top: 16px;
+    padding-right: 16px;
+}
+
+.EmotionsPage-rightBarItems{
+    white-space: nowrap;
+    padding-top: 30px;
+    padding-right: 16px;
+}
+
+#list{
+    overflow-x:scroll;
+    white-space:nowrap;
+}
+
+#menuList{
+    overflow-x:scroll;
+    white-space:nowrap;
+    float:right;
+    margin-right: 0;
+    align: right;
+}
+
+#navbar{
+    overflow-x:scroll;
+    white-space:nowrap;
+}
+
+#leftbar{
+    margin-top: 50px;
+    float:left;
+}
+
+#rightbar{
+    margin-bottom: 50px;
+    float:right;
+}
+
+#smaller_bar {
+    height: auto; 
+    width: auto; 
+}
