@@ -42,26 +42,59 @@ function ColorsPage() {
             <div id="leftbar">
               <img src={ChangeYourVibes} className="EmotionsPage-leftBarItems" />
               <br></br>
-              <img src={OverviewResults} className="EmotionsPage-leftBarItems" />
-              <div class='text-on-image'>
-                <h3> Welcome to my Blog </h3>
-                <p> FREEEEDOM </p>
+              <div class="container">
+                <img src={OverviewResults} className="EmotionsPage-leftBarItems" />
+                <div class="centered">
+                  <p> To prioritize likes, post </p>
+                  <p>dark pink more. </p>
+                  <p> To prioritize comments, post </p>
+                  <p> orange more. </p>
+                  <p> To prioritize overall engagement, </p>
+                  <p>post pink more. </p>
+                </div>
               </div>
             </div>
 
             <div id="rightbar">
-              <img src={Ellipse} className="ColorsPage-rightBarItems" />
-              <img src={Rectangle} className="ColorsPage-rightBarItems" />
-              <br></br>
-              <img src={Ellipse} className="ColorsPage-rightBarItems" />
-              <img src={Rectangle} className="ColorsPage-rightBarItems" />
-              <br></br>
-              <img src={Ellipse} className="ColorsPage-rightBarItems" />
-              <img src={Rectangle} className="ColorsPage-rightBarItems" />
-              <br></br>
-              <img src={Ellipse} className="ColorsPage-rightBarItems" />
-              <img src={Rectangle} className="ColorsPage-rightBarItems" />
+              <div class="container">
+                <img src={Ellipse} className="ColorsPage-rightBarItems" />
+                <img src={Rectangle} className="ColorsPage-rightBarItems" />
+                <div class="colorInfo">
+                  <p>Your most posted color is grey.</p>
+                  <p>You get 10% less likes and 4% less comments when you post this color.</p>
+                </div>
+              </div>
+
+              <div class="container">
+                <img src={Ellipse} className="ColorsPage-rightBarItems" />
+                <img src={Rectangle} className="ColorsPage-rightBarItems" />
+                <div class="colorInfo">
+                  <p>Your most posted color is grey.</p>
+                  <p>You get 10% less likes and 4% less comments when you post this color.</p>
+                </div>
+              </div>
+
+              <div class="container">
+                <img src={Ellipse} className="ColorsPage-rightBarItems" />
+                <img src={Rectangle} className="ColorsPage-rightBarItems" />
+                <div class="colorInfo">
+                  <p>Your most posted color is grey.</p>
+                  <p>You get 10% less likes and 4% less comments when you post this color.</p>
+                </div>
+              </div>
+
+              <div class="container">
+                <img src={Ellipse} className="ColorsPage-rightBarItems" />
+                <img src={Rectangle} className="ColorsPage-rightBarItems" />
+                <div class="colorInfo">
+                  <p>Your most posted color is grey.</p>
+                  <p>You get 10% less likes and 4% less comments when you post this color.</p>
+                </div>
+              </div>
+              
+              
             </div>
+
           </div>
         </header>
       </div>

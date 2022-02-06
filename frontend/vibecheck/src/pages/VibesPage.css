@@ -14,3 +14,49 @@
     color: white;
     margin-top: 50px;
 }
+
+.container {
+    position: relative;
+    text-align: center;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 15px;
+
+    overflow-wrap: normal;
+
+    color: #000000;
+  }
+
+.result {
+
+    font-family: DM Serif Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 75px;
+    line-height: 103px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.intro{
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 47px;
+    /* identical to box height */
+
+
+    color: #000000;
+}

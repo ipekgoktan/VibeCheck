@@ -1,7 +1,9 @@
 import './Landing.css';
 import Prompt from './../images/LandingPics/Prompt.svg'
 import VibeCheck from './../images/LandingPics/VibeCheck.svg'
+import logo from './../images/LandingPics/vibecheck.gif'
 import Rectangle from './../images/LandingPics/Rectangle.svg'
+import button from './../images/LandingPics/button.svg'
 import {Link } from "react-router-dom";
 
 function Landing() {
@@ -9,9 +11,9 @@ function Landing() {
       <div className="Landing">
         <header className="Landing-header">
           <img src={Prompt} className="Landing-items" />
-          <img src={VibeCheck} className="Landing-items" />
+          <img src={logo} className="Landing-items" />
           <Link to={'/VibesPage'}>
-            <img src={Rectangle} className="Landing-items" />
+            <img src={button} className="Landing-items" />
           </Link>
         </header>
       </div>

@@ -101,7 +101,7 @@
 
 .EmotionsPage-rightBarItems{
     white-space: nowrap;
-    padding-top: 30px;
+    padding-top: 20px;
     padding-right: 16px;
 }
 
@@ -115,7 +115,6 @@
     white-space:nowrap;
     float:right;
     margin-right: 0;
-    align: right;
 }
 
 #navbar{
@@ -136,4 +135,22 @@
 #smaller_bar {
     height: auto; 
     width: auto; 
+}
+
+.emotionInfo {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    right: 30%;
+    transform: translate(-30%, -35%);
+
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 34px;
+
+    text-align: left;
+
+    color: #000000;
 }

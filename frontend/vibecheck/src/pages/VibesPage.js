@@ -36,9 +36,12 @@ function VibesPage() {
           <div id="list">
             <img src={VibePicture} className="VibesPage-items" />
             <div id="rightbar">
-              <img src={YourVibe} className="VibesPage-items" />
+              <div class="intro">Your vibe is</div>
+              <div class="result">happiness</div>
               <br></br>
-              <img src={YourColor} className="VibesPage-items" />
+              <div class="intro">Your most frequent</div>
+              <div class="intro">color is:</div>
+              <div class="result">orange</div>
             </div>
           </div>
         </header>

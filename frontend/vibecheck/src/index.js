@@ -12,6 +12,8 @@ import EmotionsPage from './pages/EmotionsPage';
 import LikesPage from './pages/LikesPage';
 import ObjectsPage from './pages/ObjectsPage';
 import VibesPage from './pages/VibesPage';
+import VibeCheck from './pages/VibeCheck';
+
 
 ReactDOM.render(
   
@@ -26,6 +28,7 @@ ReactDOM.render(
       <Route exact path="/LikesPage" element={<LikesPage/>}/>
       <Route exact path="/VibesPage" element={<VibesPage/>}/>
       <Route exact path="/ObjectsPage" element={<ObjectsPage/>}/>
+      <Route exact path="/VibeCheck" element={<VibeCheck/>}/>
     </Routes> 
   </BrowserRouter>,
   document.getElementById('root')
