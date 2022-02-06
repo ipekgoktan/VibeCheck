@@ -59,15 +59,47 @@ function EmotionsPage() {
             </div>
 
           <div id="rightbar">
-            <img id = "smaller_bar" src={anger} className="EmotionsPage-rightBarItems" />
-            <br></br>
-            <img  id = "smaller_bar" src={happy} className="EmotionsPage-rightBarItems" />
-            <br></br>
-            <img  id = "smaller_bar" src={neutral} className="EmotionsPage-rightBarItems" />
-            <br></br>
-            <img  id = "smaller_bar" src={sad} className="EmotionsPage-rightBarItems" />
-            <br></br>
-            <img  id = "smaller_bar" src={surprise} className="EmotionsPage-rightBarItems" />
+            <div class="container">
+              <img id = "smaller_bar" src={anger} className="EmotionsPage-rightBarItems" />
+              <div class="emotionInfo">
+                <p>Your most posted emotion is happiness.</p>
+                <p>You get 14% more likes and 3% less comments when you post this emotion.</p>
+              </div>
+            </div>
+
+            <div class="container">
+              <img id = "smaller_bar" src={happy} className="EmotionsPage-rightBarItems" />
+              <div class="emotionInfo">
+                <p>Your most posted emotion is happiness.</p>
+                <p>You get 14% more likes and 3% less comments when you post this emotion.</p>
+              </div>
+            </div>
+
+
+            <div class="container">
+              <img id = "smaller_bar" src={neutral} className="EmotionsPage-rightBarItems" />
+              <div class="emotionInfo">
+                <p>Your most posted emotion is happiness.</p>
+                <p>You get 14% more likes and 3% less comments when you post this emotion.</p>
+              </div>
+            </div>
+
+
+            <div class="container">
+              <img id = "smaller_bar" src={sad} className="EmotionsPage-rightBarItems" />
+              <div class="emotionInfo">
+                <p>Your most posted emotion is happiness.</p>
+                <p>You get 14% more likes and 3% less comments when you post this emotion.</p>
+              </div>
+            </div>
+
+            <div class="container">
+              <img id = "smaller_bar" src={surprise} className="EmotionsPage-rightBarItems" />
+              <div class="emotionInfo">
+                <p>Your most posted emotion is happiness.</p>
+                <p>You get 14% more likes and 3% less comments when you post this emotion.</p>
+              </div>
+            </div>
           </div>
         </div>
           
