@@ -31,7 +31,7 @@ const FindColors = async function(link) {
 }
 
 
-export {FindColors}
+module.exports =  {FindColors}
 
 
 
