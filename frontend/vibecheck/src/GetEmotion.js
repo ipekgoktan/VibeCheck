@@ -1,3 +1,5 @@
+
+
 const FindEmotion = async function(inputFile) {
     const vision = require("@google-cloud/vision");
   
@@ -41,9 +43,14 @@ const FindEmotion = async function(inputFile) {
         Emotion = "Suprized";
     }
 
-    console.log(Emotion);
     return Emotion;
 }
 
+module.exports = { FindEmotion };
 
-FindEmotion('https://www.theladders.com/wp-content/uploads/happy-190806.jpg')
+
+/*
+let emotion
+FindEmotion('https://www.theladders.com/wp-content/uploads/happy-190806.jpg').then(result =>  return result)
+console.log(emotion)*/
+

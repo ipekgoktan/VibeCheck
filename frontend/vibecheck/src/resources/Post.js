@@ -2,12 +2,13 @@ const Color = require('./Color.js');
 const Engagement = require('./Engagement.js');
 
 class Post {
-    constructor(color, engagement, em, it) {
-      this.color = color;
-      this.engagement = engagement;
-      this.em = em;
-      this.it = it;
+    constructor(image, likes, comments) {
+      this.image = image
+      this.likes = likes;
+      this.comments = comments;     
     }
+
+    
     // Getter
     get colorString(){
         return (this.color.red + ' ' + this.color.green + ' ' + this.color.blue);

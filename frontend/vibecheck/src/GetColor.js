@@ -1,5 +1,5 @@
 
-
+//given image will return color
 FindColors = async function (link) {
     const vision = require("@google-cloud/vision");
   
@@ -119,16 +119,14 @@ Find = async function(link) {
 
 
 
-
+//everhthing done in here 
 let a = 0;
 FindColors('https://images.squarespace-cdn.com/content/v1/572731df1bbee0567229919e/1635936394898-JS98GW0TOD79E1X6HJLY/Peach+PRC+-+Press+Image+6+%28Jess+Gleeson%29.jpg?format=2500w').then(response => {
     a = getColorNameFromRgb(response[0], response[1], response[2])
     console.log(response);
     console.log(a)
-    
-    // call your functio nhere and pass in response
 })
-console.log(a)
+
 
 
 
