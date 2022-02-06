@@ -1,4 +1,5 @@
 import axios from "axios";
+import Cookies from 'js-cookie';
 
 const INSTAGRAM_APP_ID = '711683256903938';
 const INSTAGRAM_APP_SECRET = '4a67f6e1c3f297c378e78088c1da2903';
@@ -8,18 +9,17 @@ class MediaService {
 
 setupInsta(){
 	let appId = INSTAGRAM_APP_ID;
-	let redUri = HOMEPAGE + "/vibes";
+	let redUri = HOMEPAGE + "/Redirect";
 	let url = `https://api.instagram.com/oauth/authorize?client_id=${appId}&redirect_uri=${redUri}&scope=user_profile,user_media&response_type=code`;
 	window.open(url, "_blank").focus();
 
-    var code = url.split('code=')[1];
-    //added this
-    this.postAuth(code);
+    // //added this
+    // let code = url.substring(url.find("code="), url.length - 2);
+    // window.alert("button pushed, code:" + code);
+    // this.postAuth(code);
 }
 
-
-
-postAuth(code){
+postAuth(){
 
     // request.post(
     //     { form: { client_id: INSTAGRAM_APP_ID,
@@ -40,8 +40,8 @@ postAuth(code){
     //   );
 
       
-    axios.post(HOMEPAGE + "/vibes", {
-        code: code,
+    axios.post('https://api.instagram.com/oauth/access_token', {
+        code: Cookies.get("code"),
         redirectUrl: HOMEPAGE // needs to be registered at fb developer console
     })
     .then(({ data }) => {

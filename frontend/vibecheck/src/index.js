@@ -13,6 +13,7 @@ import EngagementPage from './pages/EngagementPage';
 import ItemsPage from './pages/ItemsPage';
 import LikesPage from './pages/LikesPage';
 import VibesPage from './pages/VibesPage';
+import Redirect from './pages/Redirect';
 
 ReactDOM.render(
   
@@ -28,6 +29,7 @@ ReactDOM.render(
       <Route exact path="/ItemsPage" element={<ItemsPage/>}/>
       <Route exact path="/LikesPage" element={<LikesPage/>}/>
       <Route exact path="/VibesPage" element={<VibesPage/>}/>
+      <Route exact path="/Redirect" element={<Redirect/>}/>
     </Routes> 
   </BrowserRouter>,
   document.getElementById('root')
