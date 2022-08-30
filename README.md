@@ -15,7 +15,7 @@ After the user enters their username, they get their “overall vibe”. On this
 ## How we built it
 We first made a low-fidelity model using Figma and continued to develop the idea going from our design. After finalizing the features we wanted to include in Vibe Check, we created a web application based on the final design components using React. We then used the Meta API to connect to an individual Instagram account and return the links to different posts and specific data, such as the number of likes and comments. We used an express server that handles axios post calls in order to make these Meta API calls. From there, we used the Google Vison API, which when given an image would return the top colors and the emotions of the people in these pictures. The information collected by these API calls are displayed on our React App.
 
-<img width="200" alt="customer data" src="https://user-images.githubusercontent.com/36688658/165654696-1d282dd8-3cd7-4b33-8689-05cfb0eba16a.png">
-<img width="200" alt="customer data" src="https://user-images.githubusercontent.com/36688658/165654696-1d282dd8-3cd7-4b33-8689-05cfb0eba16a.png">
-<img width="200" alt="customer data" src="https://user-images.githubusercontent.com/36688658/165654696-1d282dd8-3cd7-4b33-8689-05cfb0eba16a.png">
-<img width="200" alt="customer data" src="https://user-images.githubusercontent.com/36688658/165654696-1d282dd8-3cd7-4b33-8689-05cfb0eba16a.png">
+![VibeCheckHome (1)](https://user-images.githubusercontent.com/81991174/187335612-80529416-661d-4230-9a6e-e24f35ae23ce.png)
+![VibeCheckImage2](https://user-images.githubusercontent.com/81991174/187335619-ed19a579-e4d1-482e-8ba0-f29a5862e129.png)
+![VibeCheckImage3](https://user-images.githubusercontent.com/81991174/187335633-ce12a785-cff4-42c6-9c96-48e2e76565ee.png)
+![VibeCheckImage4](https://user-images.githubusercontent.com/81991174/187335640-5cacad4a-3b66-4a33-9c17-cfeec4a26ba3.png)
